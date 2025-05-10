@@ -1,0 +1,41 @@
+.features {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, rgba(44, 62, 80, 0.2), rgba(52, 152, 219, 0.2)), url('../images/img2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.feature-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.feature-card p {
+  color: #7f8c8d;
+}
+
+@media (max-width: 768px) {
+  .features {
+    padding: 0 1rem;
+  }
+}
