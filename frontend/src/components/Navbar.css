@@ -55,30 +55,16 @@
     color: #3498db;
 }
 
-.get-started-btn {
-    background: linear-gradient(45deg, #3498db, #2ecc71);
-    color: white;
-    border: none;
-    padding: 0.5rem 1.5rem;
-    border-radius: 25px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.get-started-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 .button-group {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
 }
 
-.login-btn {
+
+/* Common button style for both Register and Login buttons */
+
+.auth-btn {
     background: linear-gradient(45deg, #3498db, #2ecc71);
     color: white;
     border: none;
@@ -88,11 +74,26 @@
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 120px;
+    height: 40px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
 }
 
-.login-btn:hover {
+.auth-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Get started and login buttons now use the auth-btn class */
+
+.get-started-btn,
+.login-btn {
+    /* No additional properties needed */
 }
 
 .book-guide-btn {

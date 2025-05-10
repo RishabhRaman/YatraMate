@@ -28,7 +28,6 @@ const Navbar = () => {
         </div>
         <ul className="nav-links">
           <li><Link to="/recommendations" className="book-guide-btn">Recommendations</Link></li>
-          <li><Link to="/trips" className="book-guide-btn">Trips</Link></li>
           <li><Link to="/explore" className="book-guide-btn">Explore</Link></li>
           <li><Link to="/guide-booking" className="book-guide-btn">Book Guide</Link></li>
         </ul>
@@ -59,10 +58,10 @@ const Navbar = () => {
             </div>
           ) : (
             <>
-              <button className="get-started-btn" onClick={() => navigate('/register')}>
+              <button className="auth-btn" onClick={() => navigate('/register')}>
                 Register
               </button>
-              <button className="login-btn" onClick={() => navigate('/login')}>
+              <button className="auth-btn" onClick={() => navigate('/login')}>
                 Login
               </button>
             </>

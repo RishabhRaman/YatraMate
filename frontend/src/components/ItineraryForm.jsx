@@ -29,7 +29,7 @@ const translations = {
     nature: "Nature",
     adventure: "Adventure",
     shopping: "Shopping",
-    enterBudget: "Enter your budget",
+    enterBudget: "    Enter your budget",
     required: "Required",
     endDateError: "End date must be after start date",
     minBudgetError: "Minimum budget should be ₹5,000"
