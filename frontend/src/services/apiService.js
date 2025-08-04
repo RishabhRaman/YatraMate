@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_BASE_URL = 'http://localhost:3000/api';
-const USE_MOCK_DATA = true; // Enable mock data if backend fails
+const USE_MOCK_DATA = true; // Enable mock data for testing
 
 export const apiService = {
     // Authentication

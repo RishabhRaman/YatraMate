@@ -107,7 +107,7 @@ const translations = {
     resultTitle: "మీ సృష్టించిన ప్రణాళిక",
     solo: "ఒంటరిగా",
     couple: "జంట",
-    family: "కుటుంబం",
+    family: "కుటುంబం",
     group: "సమూహం",
     culture: "సంస్కృతి",
     food: "ఆహారం",
@@ -662,7 +662,7 @@ const translations = {
 };
 
 const ItineraryForm = ({ onSubmit }) => {
-  const MOCK_MODE = true; // Set to true to bypass the API call
+  const MOCK_MODE = true; // Set to true to use mock data
   
   const [formData, setFormData] = useState({
     destination: '',

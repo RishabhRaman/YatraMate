@@ -37,7 +37,7 @@ router.post('/chat', async(req, res) => {
         }
 
         // Use the Gemini API with the correct endpoint and model name
-        const url = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${GEMINI_API_KEY}`;
+        const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${GEMINI_API_KEY}`;
 
         const requestBody = {
             contents: [{
