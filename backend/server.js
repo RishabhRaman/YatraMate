@@ -76,7 +76,7 @@
    app.use('/api/auth', authRoutes);
    app.use('/api/chatgpt', chatgptRoutes);
    app.use('/api/gemini', geminiAIRoutes);
-   app.use('/api/chat', chatRoutes);
+   //app.use('/api/chat', chatRoutes);
 
    // Start the server
    app.listen(PORT, () => {
