@@ -34,7 +34,7 @@
    const authRoutes = require('./route/Auth');
    const chatgptRoutes = require('./route/ChatGPT');
    const geminiAIRoutes = require('./route/GeminiAI');
-   const chatRoutes = require('./route/chat_v2');
+   //const chatRoutes = require('./route/chat_v2');
 
    // Start with basic console log to ensure server is running
    console.log('======== STARTING SERVER ========');
