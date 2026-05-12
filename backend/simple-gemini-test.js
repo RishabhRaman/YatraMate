@@ -1,7 +1,7 @@
 // Simple Gemini API test with hardcoded key
 const fetch = require('node-fetch');
 
-const API_KEY = 'AIzaSyANU6Qo_OlBmbNS-TqMrQqSZuMA2wB7kC0';
+const API_KEY ='your api key';
 
 async function testGemini() {
     console.log('Testing Gemini API...');
