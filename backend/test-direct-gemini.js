@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 require('dotenv').config();
 
 // HARDCODED API KEY as fallback
-const HARDCODED_API_KEY = 'AIzaSyANU6Qo_OlBmbNS-TqMrQqSZuMA2wB7kC0';
+const HARDCODED_API_KEY = 'your api key';
 
 async function testGeminiAPI() {
     console.log('============= DIRECT GEMINI API TEST =============');
