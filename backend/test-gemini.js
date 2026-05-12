@@ -2,7 +2,7 @@
 const fetch = require('node-fetch');
 
 // Use the same API key as in GeminiAI.js
-const GEMINI_API_KEY = "AIzaSyANU6Qo_OlBmbNS-TqMrQqSZuMA2wB7kC0";
+const GEMINI_API_KEY ='your api key';
 
 async function testGeminiConnection() {
     console.log("Testing Gemini API connection...");
