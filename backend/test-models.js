@@ -1,7 +1,7 @@
 // Test script to find working Gemini model names
 const fetch = require('node-fetch');
 
-const API_KEY = 'AIzaSyANU6Qo_OlBmbNS-TqMrQqSZuMA2wB7kC0';
+const API_KEY = 'your api key';
 
 // Array of potential model names to try
 const modelNames = [
