@@ -25,7 +25,7 @@ const ExploreMap = () => {
   // Using a proper Google Maps API key
   const { isLoaded, loadError } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: "AIzaSyAKpOCwqHCzNRqD4kZUmFoMNHJc2uzshjQ",
+    googleMapsApiKey: "Your google maps Api key",
     libraries,
     // More lenient error handling
     nonce: undefined,
